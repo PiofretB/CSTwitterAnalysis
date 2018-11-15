@@ -3,8 +3,9 @@ from twitterPredictor.Hello_world_tweepy import *
 def collect():
     connexion = twitter_setup()
     tweets = connexion.search("@EmmanuelMacron",language="french",rpp=100)
-    #for tweet in tweets:
-        #print(tweet)
+    ids = []
+    for tweet in tweets:
+        ids+=[tweet.id]
     return tweets
 #collect()
 
