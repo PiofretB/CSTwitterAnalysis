@@ -1,0 +1,230 @@
+{
+  "contributors": null,
+  "truncated": false,
+  "text": "RT @Rare: #Veteransforkaepernick is gaining steam. Some vets say Kap's critics are missing his message. #ColinKaepernick https://t.co/ksowg\u2026",
+  "is_quote_status": false,
+  "in_reply_to_status_id": null,
+  "id": 770799621849448448,
+  "favorite_count": 0,
+  "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+  "retweeted": false,
+  "coordinates": null,
+  "entities": {
+    "symbols": [],
+    "user_mentions": [
+      {
+        "id": 822039337,
+        "indices": [
+          3,
+          8
+        ],
+        "id_str": "822039337",
+        "screen_name": "Rare",
+        "name": "Rare"
+      }
+    ],
+    "hashtags": [
+      {
+        "indices": [
+          10,
+          32
+        ],
+        "text": "Veteransforkaepernick"
+      },
+      {
+        "indices": [
+          104,
+          120
+        ],
+        "text": "ColinKaepernick"
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/ksowgFHkiV",
+        "indices": [
+          121,
+          140
+        ],
+        "expanded_url": "http://on.rare.us/2byp2Gq",
+        "display_url": "on.rare.us/2byp2Gq"
+      }
+    ]
+  },
+  "in_reply_to_screen_name": null,
+  "in_reply_to_user_id": null,
+  "retweet_count": 1297,
+  "id_str": "770799621849448448",
+  "favorited": false,
+  "retweeted_status": {
+    "contributors": null,
+    "truncated": false,
+    "text": "#Veteransforkaepernick is gaining steam. Some vets say Kap's critics are missing his message. #ColinKaepernick https://t.co/ksowgFHkiV",
+    "is_quote_status": false,
+    "in_reply_to_status_id": null,
+    "id": 770701375395143680,
+    "favorite_count": 1155,
+    "source": "<a href=\"http://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+    "retweeted": false,
+    "coordinates": null,
+    "entities": {
+      "symbols": [],
+      "user_mentions": [],
+      "hashtags": [
+        {
+          "indices": [
+            0,
+            22
+          ],
+          "text": "Veteransforkaepernick"
+        },
+        {
+          "indices": [
+            94,
+            110
+          ],
+          "text": "ColinKaepernick"
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/ksowgFHkiV",
+          "indices": [
+            111,
+            134
+          ],
+          "expanded_url": "http://on.rare.us/2byp2Gq",
+          "display_url": "on.rare.us/2byp2Gq"
+        }
+      ]
+    },
+    "in_reply_to_screen_name": null,
+    "in_reply_to_user_id": null,
+    "retweet_count": 1297,
+    "id_str": "770701375395143680",
+    "favorited": false,
+    "user": {
+      "follow_request_sent": false,
+      "has_extended_profile": false,
+      "profile_use_background_image": true,
+      "default_profile_image": false,
+      "id": 822039337,
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "verified": true,
+      "profile_text_color": "333333",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/735929859386560512/ZWGGWQct_normal.jpg",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/lHPJyVgL5s",
+              "indices": [
+                0,
+                23
+              ],
+              "expanded_url": "http://rare.us",
+              "display_url": "rare.us"
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "followers_count": 62010,
+      "profile_sidebar_border_color": "EEEEEE",
+      "id_str": "822039337",
+      "profile_background_color": "131516",
+      "listed_count": 587,
+      "is_translation_enabled": false,
+      "utc_offset": -14400,
+      "statuses_count": 51722,
+      "description": "America's Newsfeed: Like us, share us, love us.",
+      "friends_count": 1897,
+      "location": "Washington, D.C.",
+      "profile_link_color": "009999",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/735929859386560512/ZWGGWQct_normal.jpg",
+      "following": false,
+      "geo_enabled": true,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/822039337/1447338971",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "screen_name": "Rare",
+      "lang": "en",
+      "profile_background_tile": true,
+      "favourites_count": 907,
+      "name": "Rare",
+      "notifications": false,
+      "url": "https://t.co/lHPJyVgL5s",
+      "created_at": "Thu Sep 13 19:11:40 +0000 2012",
+      "contributors_enabled": false,
+      "time_zone": "Eastern Time (US & Canada)",
+      "protected": false,
+      "default_profile": false,
+      "is_translator": false
+    },
+    "geo": null,
+    "in_reply_to_user_id_str": null,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en",
+    "created_at": "Tue Aug 30 19:15:01 +0000 2016",
+    "in_reply_to_status_id_str": null,
+    "place": null
+  },
+  "user": {
+    "follow_request_sent": false,
+    "has_extended_profile": true,
+    "profile_use_background_image": true,
+    "default_profile_image": false,
+    "id": 391095898,
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000171586649/mU0QMjx0.jpeg",
+    "verified": false,
+    "profile_text_color": "333333",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/598677858572046336/EmAWb9Y5_normal.jpg",
+    "profile_sidebar_fill_color": "DDEEF6",
+    "entities": {
+      "description": {
+        "urls": []
+      }
+    },
+    "followers_count": 158,
+    "profile_sidebar_border_color": "FFFFFF",
+    "id_str": "391095898",
+    "profile_background_color": "C0DEED",
+    "listed_count": 3,
+    "is_translation_enabled": false,
+    "utc_offset": -18000,
+    "statuses_count": 3282,
+    "description": "Although the Northsiders are my favorite team, all MLB captures my interest and excitement, especially the Senior Circuit.",
+    "friends_count": 903,
+    "location": "Aurora, IL",
+    "profile_link_color": "0084B4",
+    "profile_image_url": "http://pbs.twimg.com/profile_images/598677858572046336/EmAWb9Y5_normal.jpg",
+    "following": false,
+    "geo_enabled": false,
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/391095898/1444677856",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000171586649/mU0QMjx0.jpeg",
+    "screen_name": "CubsFanForever",
+    "lang": "en",
+    "profile_background_tile": false,
+    "favourites_count": 5506,
+    "name": "Tony Guerrero",
+    "notifications": false,
+    "url": null,
+    "created_at": "Sat Oct 15 01:40:21 +0000 2011",
+    "contributors_enabled": false,
+    "time_zone": "Central Time (US & Canada)",
+    "protected": false,
+    "default_profile": false,
+    "is_translator": false
+  },
+  "geo": null,
+  "in_reply_to_user_id_str": null,
+  "possibly_sensitive": false,
+  "possibly_sensitive_appealable": false,
+  "lang": "en",
+  "created_at": "Wed Aug 31 01:45:25 +0000 2016",
+  "in_reply_to_status_id_str": null,
+  "place": null
+}
