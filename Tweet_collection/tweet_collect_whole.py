@@ -44,4 +44,4 @@ def get_tweets_from_candidates_search_queries(queries, twitter_api):
 
 
 
-print(get_tweets_from_candidates_search_queries(['Donald Trump'], twitter_setup()))
+#print(get_tweets_from_candidates_search_queries(['Donald Trump'], twitter_setup()))
