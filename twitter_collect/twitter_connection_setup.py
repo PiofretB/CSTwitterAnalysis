@@ -3,10 +3,10 @@ from twitterPredictor.Hello_world_tweepy import *
 def collect():
     connexion = twitter_setup()
     tweets = connexion.search("@EmmanuelMacron",language="french",rpp=100)
-    for tweet in tweets:
-        print(tweet.text)
-
-#print(collect())
+    #for tweet in tweets:
+        #print(tweet)
+    return tweets
+#collect()
 
 def collect_by_user(user_id):
     connexion = twitter_setup()
@@ -43,4 +43,4 @@ def collect_by_streaming(recherche):
     stream=tweepy.Stream(auth = connexion.auth, listener=listener)
     stream.filter(track=[recherche])
 
-print(collect_by_streaming('Donald Trump'))
+#eprint(collect_by_streaming('Donald Trump'))
