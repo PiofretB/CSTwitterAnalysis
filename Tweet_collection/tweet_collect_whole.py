@@ -14,8 +14,8 @@ def get_candidate_queries(num_candidate, file_path):
         On crée les path jusqu'aux fichiers contenant les keywords et les hashtags
         On les ouvre et on en extrait les informations utiles pour pouvoir ouvrir un search API
         """
-        file_keywords = file_path + '.keywords_candidate_' + str(num_candidate) + '.txt'
-        file_hashtags = file_path + '.hashtags_candidate_' + str(num_candidate) + '.txt'
+        file_keywords = file_path + '/keywords_candidate_' + str(num_candidate) + '.txt'
+        file_hashtags = file_path + '/hashtags_candidate_' + str(num_candidate) + '.txt'
         keywords = []
         hashtags = []
         with open(file_keywords, 'r') as file:
@@ -33,6 +33,8 @@ def get_candidate_queries(num_candidate, file_path):
         print("Cannot open")
         return []
 
+
+
 def get_tweets_from_candidates_search_queries(queries, twitter_api):
     # on définit une connexion à l'API
     connexion = twitter_api
@@ -45,3 +47,5 @@ def get_tweets_from_candidates_search_queries(queries, twitter_api):
 
 
 #print(get_tweets_from_candidates_search_queries(['Donald Trump'], twitter_setup()))
+with open("keywords_candidate_1.txt") as file:
+    print(file.readlines())
