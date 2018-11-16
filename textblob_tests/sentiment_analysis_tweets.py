@@ -28,6 +28,7 @@ print(tweets_sentiment_analysis('@realDonaldTrump'))
 print(tweets_sentiment_analysis('@BarackObama'))
 
 connexion = twitter_setup()
+# on crée des listes vides qui vont contenir les différents tweets en fonction de leur analyse par TextBlob
 pos_tweets = []
 neu_tweets = []
 neg_tweets = []
@@ -36,12 +37,16 @@ data = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['tweet_textu
 tweets_list = data['tweet_textual_content'].values
 for tweet in tweets_list:
     analysis = TextBlob(tweet).sentiment
+    # Si la polarité est >0 : le tweet est positif
     if analysis[0]>0:
         pos_tweets.append(tweet)
+    # si la polarité est <0 : le tweet est négatif
     elif analysis[0]<0:
         neg_tweets.append(tweet)
+    # sinon, le tweet est neutre
     else:
         neu_tweets.append(tweet)
+
 
 print("Percentage of positive tweets: {}%".format(len(pos_tweets)*100/len(data['tweet_textual_content'])))
 print("Percentage of neutral tweets: {}%".format(len(neu_tweets)*100/len(data['tweet_textual_content'])))
